@@ -2,6 +2,8 @@
 
 This is a demo project for showcasing how to use WAFv2 IP Whitelisting feature to restrict a specific IP Address to access a CloudFront Distribution.
 
+![WAF IP Whitelist Architecture](asset/aws-waf-ip-whitelist-architecture.png)
+
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
 ## Install AWS-CDK
