@@ -1,8 +1,8 @@
 {
-  "name": "waf-ipwhitelist-stack-cdk",
+  "name": "waf-ipwhitelist-cf-cdk",
   "version": "0.1.0",
   "bin": {
-    "waf-ipwhitelist-stack-cdk": "bin/waf-ipwhitelist-stack-cdk.js"
+    "waf-ipwhitelist-cf-cdk": "bin/waf-ipwhitelist-cf-cdk.js"
   },
   "scripts": {
     "build": "tsc",
@@ -21,6 +21,10 @@
     "typescript": "~3.7.2"
   },
   "dependencies": {
+    "@aws-cdk/aws-cloudfront": "^1.36.1",
+    "@aws-cdk/aws-s3": "^1.36.1",
+    "@aws-cdk/aws-s3-deployment": "^1.36.1",
+    "@aws-cdk/aws-wafv2": "^1.36.1",
     "@aws-cdk/core": "1.36.1",
     "source-map-support": "^0.5.16"
   }
